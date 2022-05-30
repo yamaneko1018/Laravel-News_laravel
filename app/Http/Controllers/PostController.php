@@ -22,9 +22,6 @@ class PostController extends Controller
             ->with(['post' => $post]);  //show.blade.phpに変数$postを渡す
    }
 
-//    public function create(){
-//        return view('index');
-//    }
 
    public function store(Request $request){   //フォームから送信されたデータはRequest型の$requestでまとめて受け取る
 
